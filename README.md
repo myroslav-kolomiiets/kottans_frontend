@@ -14,10 +14,10 @@ A short and interesting game for a better understanding of the previous course.
 
 ### Configuring Linux Web Servers - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_1/conf_web_server.png)
 
-### Networking for Web Developers - [screenshot]()
+### Networking for Web Developers - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_1/networking_for-web_developers.png)
 
 ## Test task 2
 
-### What is Version Control - [screenshot]()
+### What is Version Control - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_2/Version_Control_with_Git.png)
 
 ### GitHub & Collaboration - [screenshot]()

@@ -14,4 +14,10 @@ A short and interesting game for a better understanding of the previous course.
 
 ### Configuring Linux Web Servers - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_1/conf_web_server.png)
 
-### Networking for Web Developers - in process
+### Networking for Web Developers - [screenshot]()
+
+## Test task 2
+
+### What is Version Control - [screenshot]()
+
+### GitHub & Collaboration - [screenshot]()

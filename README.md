@@ -24,4 +24,8 @@ A short and interesting game for a better understanding of the previous course.
 
 ## Test task 3
 
-### HTML5 and CSS Fundamentals  - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_3/HTML5.0x.png)
+### HTML5 and CSS Fundamentals - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_3/HTML5.0x.png)
+
+## Test task 4
+
+### CSS Basics - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_4/CSS.0x.png)

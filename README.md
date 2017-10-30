@@ -21,3 +21,7 @@ A short and interesting game for a better understanding of the previous course.
 ### What is Version Control - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_2/Version_Control_with_Git.png)
 
 ### GitHub & Collaboration - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_2/GitHub_Collaboration.png)
+
+## Test task 3
+
+### HTML5 and CSS Fundamentals  - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_3/HTML5.0x.png)

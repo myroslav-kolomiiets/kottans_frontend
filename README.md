@@ -16,6 +16,17 @@ A short and interesting game for a better understanding of the previous course.
 
 ### Networking for Web Developers - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_1/networking_for-web_developers.png)
 
+### [HTTP: The Protocol Every Web Developer Must Know - Part 1](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
+name (at least) one thing that was new to you: The variety of http request verbs.
+name (at least) one thing that surprised you: The importance of this topic.
+name (at least) one thing you intend to use in the future: I want to learn ExpressJS to build server applications on NodeJs.
+
+### [HTTP: The Protocol Every Web Developer Must Know - Part 2](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-2--net-31155)
+name (at least) one thing that was new to you: Difrent types of identifications, like: Basic Authentication, Digest Authentication and
+Proxy Authentication. And how HTTPS protocol actually works.
+name (at least) one thing that surprised you: 
+name (at least) one thing you intend to use in the future: I want to go deep into Cache Processing, to use it in my projects.
+
 ## Test task 2
 
 ### What is Version Control - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_2/Version_Control_with_Git.png)

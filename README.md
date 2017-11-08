@@ -42,3 +42,7 @@ Proxy Authentication. And how HTTPS protocol actually works.**
 ## Test task 4
 
 ### CSS Basics - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_4/CSS.0x.png)
+
+## Test task 5
+
+### CSS Basics - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_5/Screenshot.png)

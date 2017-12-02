@@ -45,16 +45,20 @@ Proxy Authentication. And how HTTPS protocol actually works.**
 
 ## Test task 5
 
-### CSS Basics - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_5/Screenshot.png)
+### Intro to JS - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_5/Screenshot.png)
 
 ## Test task 6
 
-###
+### Object Oriented JS - [screenshot]()
 
 ## Test task 7
 
-###
+### Offline Web Applications - [screenshot]()
 
 ## Test task 8
 
 ### [Memory Pair Game](https://iammiro.github.io/MemoryPairGame/)
+
+## Test task 9
+
+### Website Performance Optimization - [screenshot]() - in process

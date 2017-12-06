@@ -61,4 +61,4 @@ Proxy Authentication. And how HTTPS protocol actually works.**
 
 ## Test task 9
 
-### Website Performance Optimization - [screenshot]() - in process
+### Website Performance Optimization - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_9/Screenshot.png)

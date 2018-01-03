@@ -75,5 +75,5 @@ I did one PWA before, but this course helped me understand this technology more 
 
 ## Test task 10
 
-### [Weather app](https://iammiro.github.io/Weather-app
+### [Weather app](https://iammiro.github.io/Weather-app)
 Weather forecast app, based on [Dark Sky API](https://darksky.net/dev) and [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/geocoding?hl=en)

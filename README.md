@@ -17,6 +17,7 @@ A really good course of basics that every front-end developer should know about 
 Add knowledge of how to set up remote (or on virtual machine) web server from scratch.
 
 ### Networking for Web Developers - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_1/networking_for-web_developers.png)
+TCP, IP, HTTP and how in fact internet works.
 
 ### [HTTP: The Protocol Every Web Developer Must Know - Part 1](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
 #### Questions:
@@ -67,11 +68,13 @@ I did one PWA before, but this course helped me understand this technology more 
 ## Test task 8
 
 ### [Memory Pair Game](https://iammiro.github.io/MemoryPairGame/)
-
+The game where you need to match pairs of tiles.
 
 ## Test task 9
 
 ### Website Performance Optimization - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_9/Screenshot.png)
+A very interesting course about the performance optimization. It shows how necessary is to optimize the content of web page, a js and CSS files.
+And that we have to worry about the users with a bad internet connection.
 
 ## Test task 10
 

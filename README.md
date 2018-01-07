@@ -57,12 +57,12 @@ A basic course about JS, arrays, data types, strings, etc.
 
 ## Test task 6
 
-### Object Oriented JS - [screenshot]()
+### Object Oriented JS - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_6/Screenshot.png)
 A more advanced course about OOP in JS, but I think it is not enough to understand this theme, it needs much more practice.
 
 ## Test task 7
 
-### Offline Web Applications - [screenshot]()
+### Offline Web Applications - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_7/Screenshot.png)
 I did one PWA before, but this course helped me understand this technology more deeply.
 
 ## Test task 8

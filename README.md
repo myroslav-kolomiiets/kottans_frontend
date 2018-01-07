@@ -58,7 +58,8 @@ A basic course about JS, arrays, data types, strings, etc.
 ## Test task 6
 
 ### Object Oriented JS - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_6/Screenshot.png)
-A more advanced course about OOP in JS, but I think it is not enough to understand this theme, it needs much more practice.
+A more advanced course about OOP in JS, but I think it is not enough to understand this theme, it needs much more practice. 
+Realy the hardest cours in list.
 
 ## Test task 7
 

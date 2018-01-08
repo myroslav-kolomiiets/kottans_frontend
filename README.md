@@ -58,8 +58,8 @@ Proxy Authentication. And how HTTPS protocol actually works.**
 ## Test task 6
 
 ### Object Oriented JS - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_6/Screenshot.png)
-> A more advanced course about OOP in JS, but I think it is not enough to understand this theme, it needs much more practice. 
-> Realy the hardest course in list, as for me.
+A more advanced course about OOP in JS, but I think it is not enough to understand this theme, it needs much more practice. 
+Realy the hardest cours in list.
 
 ## Test task 7
 

@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+<head>
+    <title>TASK 11, HTML5 Form</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <div class="header__wrapper">
+        <button class="header__button-go-back">GO BACK</button>
+        <div class="header__logo">
+            <img src="img/logo.png" alt="logo image">
+        </div>
+        <button class="header__button-sign-in">SIGN IN</button>
+    </div>
+</header>
+<main class="main-content-form">
+    <div class="main-content-form__form-wrapper">
+        <form class="main-content-form__form">
+            <section class="main-content-form__order-summary">
+                <h3 class="main-content-form__summary">Your order</h3>
+                <div class="main-content-form__summary-items">
+                    <div class="main-content-form__summary-header">
+                        Items
+                    </div>
+                    <div class="main-content-form__summary-footer">
+                        2 documents
+                    </div>
+                </div>
+                <div class="main-content-form__summary-details">
+                    <div class="main-content-form__summary-header">
+                        Details
+                    </div>
+                    <div class="main-content-form__summary-footer">
+                        2 languages
+                    </div>
+                </div>
+                <div class="main-content-form__summary-price">
+                    <div class="main-content-form__summary-header">
+                        Price
+                    </div>
+                    <div class="main-content-form__summary-footer">
+                        $696.06
+                    </div>
+                </div>
+                <div class="main-content-form__summary-delivery">
+                    <div class="main-content-form__summary-header">
+                        Delivery
+                    </div>
+                    <div class="main-content-form__summary-footer">
+                        48 hours*
+                    </div>
+                </div>
+
+                <button class="main-content-form__place-order-button">Place order</button>
+                <button class="main-content-form__print-order-button">Print a quote</button>
+            </section>
+            <section class="main-content-form__help-center">
+                <img src="img/help-icon.svg">
+                <h4>Help center</h4>
+                <p>
+                    If you need assistance while placing your order, contact one of our beloved Project Manager by phone
+                    or email.
+                </p>
+                <a href="tel:+971(0) 555 555">+971(0)555 555</a>
+                <a href="mailto:help@qtest.com">help@qtest.com</a>
+            </section>
+            <section class="main-content-form__select-type">
+                <h1>Select what you want to translate</h1>
+                <label for="website-radio-button">Website</label>
+                <input type="radio" id="website-radio-button" name="website-radio-button">
+
+                <label for="document-radio-button">Document</label>
+                <input type="radio" id="document-radio-button" name="document-radio-button">
+
+                <label for="social-account-radio-button">Social Account</label>
+                <input type="radio" id="social-account-radio-button" name="social-account-radio-button">
+
+            </section>
+            <section class="main-content-form__upload-documents">
+                <h2>Upload your documents</h2>
+                <span>(Doc, Docx, Text, PDF, Markdown)</span>
+                <label for="upload-documents">
+                    <input type="file" id="upload-documents">
+                </label>
+                <div class="main-content-form__upload-files">
+
+                </div>
+            </section>
+            <section class="main-content-form__chose-languages">
+                <h2>Chose your languages pairings</h2>
+                <label for="lang-input-from">
+                    From
+                </label>
+                <select id="lang-input-from">
+                    <option>English</option>
+                </select>
+                <label for="lang-input-to-1">
+                    To
+                </label>
+                <select id="lang-input-to-1">
+                    <option>Arabic</option>
+                </select>
+                <label for="lang-input-to-2">
+                </label>
+                <select id="lang-input-to-2">
+                    <option>Kurdish</option>
+                </select>
+                <input type="button" value="+ ADD">
+            </section>
+            <section class="main-content-form__select-tone">
+                <h2>Select your desired tone</h2>
+                <label for="friendly-tone">Friendly / Casual</label>
+                <input type="radio" id="friendly-tone" name="website-radio-button">
+
+                <label for="pro-tone">Corporate / Pro</label>
+                <input type="radio" id="pro-tone" name="website-radio-button">
+
+                <label for="media-tone">Media / Formal</label>
+                <input type="radio" id="media-tone" name="website-radio-button">
+
+            </section>
+            <section class="main-content-form__urgent-range">
+                <h2>Tell us how urgent urgent this job is</h2>
+                <label for="urgent-range"></label>
+                <span>I got time</span>
+                <input type="range" id="urgent-range">
+                <span>Yesterday</span>
+                <div class="main-content-form__timeline-info">
+                    <img src="img/info.swg">
+                    <h3>Timeline info</h3>
+                    <p>with an <span>Average</span> timeline set up, our expert translator can take a reasonable amount
+                        of time perfecing your translation</p>
+                </div>
+            </section>
+            <section class="main-content-form__choose-payment">
+                <h2>Sign up and choose a payment method</h2>
+                <div class="main-content-form__account-sign-in">
+                    Already have an account with us?
+                    <a href="/">Sign in.</a>
+                </div>
+                <label for="name">Full name</label>
+                <input type="text" id="name" placeholder="Full name">
+                <label for="email">Email address</label>
+                <input type="email" id="email" placeholder="example@test.com">
+                <label for="password">Chose a password</label>
+                <input type="text" id="password" placeholder="Password">
+                <label for="credit-card">Visa / Mastercard</label>
+                <input type="radio" id="credit-card">
+                <label for="pay-pal">PayPal</label>
+                <input type="radio" id="pay-pal">
+                <label for="amazon">amazon.com</label>
+                <input type="radio" id="amazon">
+                <label for="card-number">Card number</label>
+                <input type="text" id="card-number">
+                <label for="expire-date">Expire date</label>
+                <input type="date" id="expire-date">
+                <label for="cvv-code">Code</label>
+                <input type="text" id="cvv-code">
+            </section>
+            <section class="main-content-form__submit">
+                <label for="agree-checkbox">
+                    I agree to the
+                    <a href="/">Terms & Conditions</a></label>
+                <input type="checkbox" id="agree-checkbox" checked>
+                <button class="main-content-form__place-order-button">Place order</button>
+                <button class="main-content-form__print-order-button">Print a quote</button>
+            </section>
+        </form>
+    </div>
+</main>
+<footer class="footer">
+    <div class="footer__about-us">
+        <img src="img/footer-heart.svg">
+        <h4>What we do</h4>
+        <p>
+            We provide a full range of language services including content development, document, website and social
+            media account translations.
+        </p>
+    </div>
+    <div class="footer__address">
+        <img src="img/footer-compass.svg">
+        <h4>Our main office</h4>
+        <address>
+            Dubai, UAE<br>
+            P.O. Box: 502735<br>
+            Phone: <a href="tel:+971(0)44278128">+971(0)44278128</a>
+        </address>
+    </div>
+    <div class="footer__socials">
+        <img src="img/footer-socials.svg">
+        <h4>Connect with us</h4>
+        <div class="footer__facebook">
+            <img src="img/facebook.svg">
+            <a href="/">Facebook</a>
+        </div>
+        <div class="footer__twitter">
+            <img src="img/twitter.svg">
+            <a href="/">Twitter</a>
+        </div>
+        <div class="footer__linkedin">
+            <img src="img/linkedin">
+            <a href="/">Linkedin</a>
+        </div>
+    </div>
+    <div class="footer__logo">
+        <img src="img/logo.png">
+    </div>
+</footer>
+</body>
+</html>

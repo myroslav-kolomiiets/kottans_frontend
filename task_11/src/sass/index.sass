@@ -1,0 +1,519 @@
+//Proxima Nova fonts////////////////////////////////////////////////////////////////////////////////////////////////////
+
+@font-face
+  font-family: 'proxima_nova_altblack'
+  src: url('../fonts/MarkSimonson-ProximaNovaAltBlack-webfont.woff2') format('woff2'),
+  url('../fonts/MarkSimonson-ProximaNovaAltBlack-webfont.woff') format('woff'),
+  url('../fonts/MarkSimonson-ProximaNovaAltBlack-webfont.ttf') format('truetype'),
+  url('../fonts/MarkSimonson-ProximaNovaAltBlack-webfont.svg#proxima_nova_altblack') format('svg')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'proxima_nova_altbold'
+  src: url('../fonts/MarkSimonson-ProximaNovaAltBold-webfont.eot')
+  src: url('../fonts/MarkSimonson-ProximaNovaAltBold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MarkSimonson-ProximaNovaAltBold-webfont.woff2') format('woff2'),
+  url('../fonts/MarkSimonson-ProximaNovaAltBold-webfont.woff') format('woff'),
+  url('../fonts/MarkSimonson-ProximaNovaAltBold-webfont.ttf') format('truetype'),
+  url('../fonts/MarkSimonson-ProximaNovaAltBold-webfont.svg#proxima_nova_altbold') format('svg')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'Proxima Nova'
+  src: url('../fonts/MarkSimonson-ProximaNovaAltRegular-webfont.eot')
+  src: url('../fonts/MarkSimonson-ProximaNovaAltRegular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MarkSimonson-ProximaNovaAltRegular-webfont.woff') format('woff'),
+  url('../fonts/MarkSimonson-ProximaNovaAltRegular-webfont.ttf') format('truetype'),
+  url('../fonts/MarkSimonson-ProximaNovaAltRegular-webfont.svg#proxima_nova_altregular') format('svg')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'proxima_nova_scosfthin'
+  src: url('../fonts/MarkSimonson-ProximaNovaScOsfThin-webfont.eot')
+  src: url('../fonts/MarkSimonson-ProximaNovaScOsfThin-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MarkSimonson-ProximaNovaScOsfThin-webfont.woff') format('woff'),
+  url('../fonts/MarkSimonson-ProximaNovaScOsfThin-webfont.ttf') format('truetype'),
+  url('../fonts/MarkSimonson-ProximaNovaScOsfThin-webfont.svg#proxima_nova_scosfthin') format('svg')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'proxima_nova_ltsemibold'
+  src: url('../fonts/MarkSimonson-ProximaNovaSemibold-webfont.eot')
+  src: url('../fonts/MarkSimonson-ProximaNovaSemibold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MarkSimonson-ProximaNovaSemibold-webfont.woff2') format('woff2'),
+  url('../fonts/MarkSimonson-ProximaNovaSemibold-webfont.ttf') format('truetype'),
+  url('../fonts/MarkSimonson-ProximaNovaSemibold-webfont.svg#proxima_nova_ltsemibold') format('svg')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'proxima_nova_ltthin'
+  src: url('../fonts/MarkSimonson-ProximaNovaThin-webfont.eot')
+  src: url('../fonts/MarkSimonson-ProximaNovaThin-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MarkSimonson-ProximaNovaThin-webfont.woff2') format('woff2'),
+  url('../fonts/MarkSimonson-ProximaNovaThin-webfont.woff') format('woff'),
+  url('../fonts/MarkSimonson-ProximaNovaThin-webfont.ttf') format('truetype'),
+  url('../fonts/MarkSimonson-ProximaNovaThin-webfont.svg#proxima_nova_ltthin') format('svg')
+  font-weight: normal
+  font-style: normal
+
+////Proxima Nova fonts//////////////////////////////////////////////////////////////////////////////////////////////////
+
+////common styles///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+body
+  font-family: 'Proxima Nova', Georgia, sans-serif
+  color: #9ea4b5
+
+////common styles///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//header styles/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.header
+  background-color: #eceef4
+  height: 200px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  &__wrapper
+    width: 1000px
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+  &__logo
+    width: 100px
+    & img
+      width: 90px
+  &__button-go-back
+    width: 142px
+    height: 45px
+    border: 1px solid lightgray
+    border-radius: 5px
+    background-color: #eceef4
+    font-size: 10px
+    font-weight: bold
+    color: gray
+    cursor: pointer
+  &__button-sign-in
+    width: 142px
+    height: 45px
+    border: 1px solid lightgray
+    border-radius: 5px
+    background-color: #eceef4
+    font-size: 10px
+    font-weight: bold
+    color: gray
+    cursor: pointer
+
+//header styles/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//main content//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.main-content
+  width: 100%
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  background-color: #eceef4
+  &__form-wrapper
+    margin-bottom: 100px
+    background-color: #fff
+    max-width: 1000px
+    border: 1px solid lightgrey
+    border-radius: 4px
+  &__form
+    counter-reset: section
+
+////main content////////////////////////////////////////////////////////////////////////////////////////////////////////
+.main-content
+
+  &__order-summary-block
+    display: flex
+    flex-direction: row
+    justify-content: flex-start
+    align-items: flex-start
+    border-bottom: 1px solid lightgrey
+  &__order-summary-table
+    width: 50%
+    padding: 20px 0px 0px 30px
+  & caption
+    text-align: left
+    padding: 0px 0px 25px 0px
+    text-transform: uppercase
+    font-size: 12px
+    font-weight: bold
+  & th
+    padding: 0px 0px 10px 45px
+    text-align: left
+    text-transform: uppercase
+    font-size: 11px
+  & td
+    padding: 0px 0px 0px 45px
+    text-align: left
+    font-size: 11px
+  & img
+    width: 20px
+    height: 20px
+    margin-right: 10px
+  &__order-summary-buttons
+    margin: 22px 10px 0 0
+    width: 18%
+    flex-direction: column
+    justify-content: center
+    align-items: center
+  &__place-order-button
+    width: 150px
+    height: 45px
+    background-color: #5fcac6
+    border: 1px solid #5fcac6
+    border-radius: 5px
+    font-size: 11px
+    font-weight: bold
+    color: white
+    cursor: pointer
+    margin-bottom: 10px
+    text-transform: uppercase
+  &__print-order-button
+    width: 150px
+    height: 45px
+    border: 1px solid lightgray
+    border-radius: 5px
+    background-color: #eceef4
+    font-size: 11px
+    font-weight: bold
+    color: gray
+    cursor: pointer
+    text-transform: uppercase
+  &__help-center
+    padding-bottom: 20px
+    border-left: 1px solid lightgrey
+    width: 32%
+  &__help-center a
+    color: #9ea4b5
+    font-weight: bold
+    font-size: 10px
+    padding: 0 0 0 55px
+  &__help-center h4
+    margin-left: 20px
+    font-size: 12px
+  &__help-center p
+    padding: 0 15px 0 55px
+    font-size: 12px
+    & img
+      width: 20px
+      height: 20px
+  &__select-type h1
+    text-transform: uppercase
+    text-align: center
+    margin: 90px 0px 65px 0px
+    font-size: 18px
+    letter-spacing: 3px
+    text-decoration: underline
+  &__radio-buttons-wrapper
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    & label
+      //width: 245px
+      //height: 170px
+      margin: 10px
+      //background-color: #f7f7fa
+      //border: 1px solid lightgrey
+      //border-radius: 5px
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      cursor: pointer
+    & label > input
+      visibility: hidden
+      position: absolute
+    & label > input + img
+      border: 3px solid transparent
+      width: 250px
+      height: 180px
+    & label > input:checked + img
+      border: 3px solid blue
+      border-radius: 5px
+
+  &__upload-documents
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    margin: 67px 0 0 122px
+  &__upload-documents-header
+    display: flex
+    flex-direction: row
+    justify-content: flex-start
+    position: relative
+  &__section-header
+    font-size: 22px
+    font-weight: 300
+  &__section-header::before
+    counter-increment: section
+    content: counter(section)
+    position: absolute
+    left: -70px
+    bottom: 10px
+    border: 1px solid grey
+    width: 35px
+    height: 35px
+    border-radius: 100%
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+  & .list-of-file-types
+    margin-left: 10px
+    font-weight: 300
+    font-size: 14px
+  &__upload-documents-input
+    display: none
+  &__upload-documents-input + label
+    margin-top: 30px
+    width: 195px
+    height: 45px
+    border: 1px solid lightgrey
+    border-radius: 5px
+    background-color: #f7f7fa
+    cursor: pointer
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+  &__uploaded-files
+    height: 120px
+    width: 775px
+    border: 1px solid lightgrey
+    border-radius: 5px
+    margin: 30px 170px 30px 0
+    padding-bottom: 20px
+  &__uploaded-files-table th
+    padding: 20px 100px 0px 20px
+  &__uploaded-files-table td
+    padding: 15px 0px 0px 20px
+  &__chose-languages
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    position: relative
+    margin: 50px 0 0 122px
+  &__chose-languages p
+    width: 40px
+    font-size: 14px
+    padding-right: 10px
+    float: left
+  &__chose-languages select
+    width: 170px
+    height: 45px
+    background-color: #f7f7fa
+    color: #bab9c7
+    border: 1px solid lightgrey
+    border-radius: 5px
+    padding: 0 0 0 50px
+  &__chose-languages .chose-languages-from
+    margin: 20px 0
+  &__chose-languages input
+    width: 100px
+    height: 50px
+    background-color: #f7f7fa
+    color: #bab9c7
+    border: 1px solid lightgrey
+    border-radius: 5px
+  &__chose-languages::before
+    counter-increment: section
+    content: counter(section)
+    position: absolute
+    left: -70px
+    top: 10px
+    font-weight: bold
+    font-size: 22px
+    border: 1px solid grey
+    width: 35px
+    height: 35px
+    border-radius: 100%
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+  &__select-tone
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    margin: 80px 120px 0 122px
+    position: relative
+    width: 30%
+    float: left
+  &__select-tone input
+    display: none
+  &__select-tone label
+    width: 200px
+    height: 60px
+    background-color: #f7f7fa
+    color: #bab9c7
+    border: 1px solid lightgrey
+    border-radius: 5px
+    margin: 10px 0 15px 0
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    cursor: pointer
+  &__select-tone label > input:checked
+    border: 3px solid blue
+    border-radius: 5px
+  &__select-tone::before
+    counter-increment: section
+    content: counter(section)
+    position: absolute
+    left: -70px
+    top: 10px
+    font-weight: bold
+    font-size: 22px
+    border: 1px solid grey
+    width: 35px
+    height: 35px
+    border-radius: 100%
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+
+  &__urgent-range
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    margin: 80px 20px 0px 0px
+    position: relative
+  &__timeline-info
+    border: 1px solid lightgrey
+    border-radius: 5px
+    padding: 0 20px
+    margin-top: 20px
+  &__urgent-range-labels-wrapper
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+  //&__urgent-range-labels-wrapper:first-child
+    //color: orange
+  &__urgent-range::before
+    counter-increment: section
+    content: counter(section)
+    position: absolute
+    left: -70px
+    top: 10px
+    font-weight: bold
+    font-size: 22px
+    border: 1px solid grey
+    width: 35px
+    height: 35px
+    border-radius: 100%
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+
+  &__choose-payment
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    margin-left: 140px
+    position: relative
+    clear: both
+  &__choose-payment::before
+    counter-increment: section
+    content: counter(section)
+    position: absolute
+    left: -70px
+    top: 10px
+    font-weight: bold
+    font-size: 22px
+    border: 1px solid grey
+    width: 35px
+    height: 35px
+    border-radius: 100%
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+  &__choose-payment input
+
+  &__submit
+    display: flex
+    flex-direction: row
+    justify-content: flex-end
+    align-items: center
+    padding: 40px
+  &__submit .main-content__place-order-button
+    margin: 0 20px 0 0
+  &__submit label
+    margin-right: 20px
+
+//footer////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.footer
+  background-color: #444a62
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+  height: 250px
+  &__wrapper
+    width: 1150px
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: flex-start
+  &__about-us
+    width: 25%
+    & img
+      width: 20px
+      height: 20px
+      margin-right: 15px
+    & p
+      font-size: 14px
+      padding: 0 35px
+  &__address
+    width: 25%
+    & img
+      width: 20px
+      height: 20px
+      margin-right: 15px
+    & address
+      padding-left: 35px
+    & address a
+      color: #9ea4b5
+      font-weight: bold
+  &__socials
+    width: 25%
+    color: #9ea4b5
+    font-weight: bold
+    & img
+      width: 20px
+      height: 20px
+      margin-right: 15px
+    & a
+      color: #9ea4b5
+      font-weight: bold
+      text-decoration: none
+  &__logo
+    width: 25%
+    margin-top: 50px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    & img
+      width: 80px
+
+
+////footer//////////////////////////////////////////////////////////////////////////////////////////////////////////////

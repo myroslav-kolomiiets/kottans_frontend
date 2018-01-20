@@ -16,7 +16,7 @@ gulp.task('deploy', function() {
     .pipe(ghPages());
 });
 
-gulp.task('serve', ['sass', 'pug', 'min-js', 'min-css', 'compress-images', 'fonts', 'html'], () => {
+gulp.task('serve', ['sass', 'pug', 'min-js', 'compress-images', 'fonts', 'html'], () => {
   browserSync.init({
     server: {
       baseDir: "./build/"
@@ -32,7 +32,7 @@ gulp.task('serve', ['sass', 'pug', 'min-js', 'min-css', 'compress-images', 'font
 });
 
 gulp.task('compress-images', () => {
-  gulp.src('src/img/*')
+  gulp.src('src/img/**/*.*')
     .pipe(imagemin())
     .pipe(gulp.dest('build/img'))
 });
@@ -47,12 +47,12 @@ gulp.task('min-js', () => {
     .pipe(browserSync.stream());
 });
 
-gulp.task('min-css', () => {
-  return gulp.src('src/css/*.css')
-    .pipe(concatCss("index.css"))
-    .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(gulp.dest('build/css/'));
-});
+// gulp.task('min-css', () => {
+//   return gulp.src('src/sass/*.css')
+//     .pipe(concatCss("index.css"))
+//     .pipe(cleanCSS({compatibility: 'ie8'}))
+//     .pipe(gulp.dest('build/sass/'));
+// });
 
 gulp.task('fonts', () => {
   return gulp.src([
@@ -67,11 +67,11 @@ gulp.task('html', () => {
 });
 
 gulp.task('sass', () => {
-  return gulp.src('src/block/index.sass')
+  return gulp.src('src/sass/index.sass')
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss([autoprefixer()]))
     .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(concat('main.css'))
+    .pipe(concat('index.css'))
     .pipe(gulp.dest('build/css'))
     .pipe(browserSync.stream());
 });

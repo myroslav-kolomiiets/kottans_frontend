@@ -422,6 +422,55 @@ body
     justify-content: center
     align-items: center
 
+  &__urgent-range input
+    -webkit-appearance: none
+    width: 430px
+    margin: 50px 0 20px 0
+    position: relative
+
+  &__urgent-range input::-webkit-slider-thumb
+    -webkit-appearance: none
+    width: 20px
+    height: 20px
+    border-radius: 10px
+    background: orange
+    margin-top: -5px
+    z-index: 2
+    position: relative
+
+  &__urgent-range input::after
+    content: ''
+    display: block
+    width: 10px
+    height: 10px
+    border-radius: 10px
+    background: gray
+    position: absolute
+    z-index: 1
+
+  &__urgent-range input:before
+    content: ''
+    display: block
+    width: 10px
+    height: 10px
+    border-radius: 5px
+    background: gray
+    position: absolute
+    right: 0
+    z-index: 1
+
+  &__urgent-range input::-webkit-slider-runnable-track
+    -webkit-appearance: none
+    width: 430px
+    background: lightgrey
+    height: 10px
+    border-radius: 10px
+
+  &__urgent-range-orange-input
+    color: orange
+    font-size: 18px
+    font-weight: bold
+
   &__choose-payment
     display: flex
     flex-direction: column
@@ -429,6 +478,7 @@ body
     margin-left: 140px
     position: relative
     clear: both
+
   &__choose-payment::before
     counter-increment: section
     content: counter(section)
@@ -445,6 +495,7 @@ body
     flex-direction: row
     justify-content: center
     align-items: center
+
   &__choose-payment input
 
   &__submit
@@ -453,8 +504,10 @@ body
     justify-content: flex-end
     align-items: center
     padding: 40px
+
   &__submit .main-content__place-order-button
     margin: 0 20px 0 0
+
   &__submit label
     margin-right: 20px
 
@@ -467,14 +520,17 @@ body
   justify-content: center
   align-items: center
   height: 250px
+
   &__wrapper
     width: 1150px
     display: flex
     flex-direction: row
     justify-content: center
     align-items: flex-start
+
   &__about-us
     width: 25%
+
     & img
       width: 20px
       height: 20px
@@ -514,6 +570,5 @@ body
     align-items: center
     & img
       width: 80px
-
 
 ////footer//////////////////////////////////////////////////////////////////////////////////////////////////////////////

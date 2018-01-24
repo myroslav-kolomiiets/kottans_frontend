@@ -156,7 +156,7 @@
                 <input type="range" id="urgent-range">
                 <div class="main-content__urgent-range-labels-wrapper">
                     <label for="urgent-range">I got time</label>
-                    <label for="urgent-range">Average</label>
+                    <label for="urgent-range" class="main-content__urgent-range-orange-input">Average</label>
                     <label for="urgent-range">Yesterday</label>
                 </div>
                 <div class="main-content__timeline-info">
@@ -172,24 +172,30 @@
                     Already have an account with us?
                     <a href="/">Sign in.</a>
                 </div>
-                <label for="name">Full name</label>
-                <input type="text" id="name" placeholder="Full name">
-                <label for="email">Email address</label>
-                <input type="email" id="email" placeholder="example@test.com">
-                <label for="password">Chose a password</label>
-                <input type="text" id="password" placeholder="Password">
-                <label for="credit-card">Visa / Mastercard</label>
-                <input type="radio" id="credit-card">
-                <label for="pay-pal">PayPal</label>
-                <input type="radio" id="pay-pal">
-                <label for="amazon">amazon.com</label>
-                <input type="radio" id="amazon">
-                <label for="card-number">Card number</label>
-                <input type="text" id="card-number">
-                <label for="expire-date">Expire date</label>
-                <input type="date" id="expire-date">
-                <label for="cvv-code">Code</label>
-                <input type="text" id="cvv-code">
+                <div class="main-content__personal-payment-details">
+                    <label for="name">Full name</label>
+                    <input type="text" id="name" placeholder="Full name">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" placeholder="example@test.com">
+                    <label for="password">Chose a password</label>
+                    <input type="text" id="password" placeholder="Password">
+                    <label for="credit-card">Visa / Mastercard</label>
+                </div>
+                <div class="main-content__payments-types">
+                    <input type="radio" id="credit-card">
+                    <label for="pay-pal">PayPal</label>
+                    <input type="radio" id="pay-pal">
+                    <label for="amazon">amazon.com</label>
+                    <input type="radio" id="amazon">
+                    <label for="card-number">Card number</label>
+                </div>
+                <div class="main-content__credit-card-details">
+                    <input type="text" id="card-number">
+                    <label for="expire-date">Expire date</label>
+                    <input type="date" id="expire-date">
+                    <label for="cvv-code">Code</label>
+                    <input type="text" id="cvv-code">
+                </div>
             </section>
 
             <section class="main-content__submit">

@@ -1,80 +1,18 @@
-//Proxima Nova fonts////////////////////////////////////////////////////////////////////////////////////////////////////
-
-@font-face
-  font-family: 'proxima_nova_altblack'
-  src: url('../fonts/MarkSimonson-ProximaNovaAltBlack-webfont.woff2') format('woff2'),
-  url('../fonts/MarkSimonson-ProximaNovaAltBlack-webfont.woff') format('woff'),
-  url('../fonts/MarkSimonson-ProximaNovaAltBlack-webfont.ttf') format('truetype'),
-  url('../fonts/MarkSimonson-ProximaNovaAltBlack-webfont.svg#proxima_nova_altblack') format('svg')
-  font-weight: normal
-  font-style: normal
-
-@font-face
-  font-family: 'proxima_nova_altbold'
-  src: url('../fonts/MarkSimonson-ProximaNovaAltBold-webfont.eot')
-  src: url('../fonts/MarkSimonson-ProximaNovaAltBold-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/MarkSimonson-ProximaNovaAltBold-webfont.woff2') format('woff2'),
-  url('../fonts/MarkSimonson-ProximaNovaAltBold-webfont.woff') format('woff'),
-  url('../fonts/MarkSimonson-ProximaNovaAltBold-webfont.ttf') format('truetype'),
-  url('../fonts/MarkSimonson-ProximaNovaAltBold-webfont.svg#proxima_nova_altbold') format('svg')
-  font-weight: normal
-  font-style: normal
-
-@font-face
-  font-family: 'Proxima Nova'
-  src: url('../fonts/MarkSimonson-ProximaNovaAltRegular-webfont.eot')
-  src: url('../fonts/MarkSimonson-ProximaNovaAltRegular-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/MarkSimonson-ProximaNovaAltRegular-webfont.woff') format('woff'),
-  url('../fonts/MarkSimonson-ProximaNovaAltRegular-webfont.ttf') format('truetype'),
-  url('../fonts/MarkSimonson-ProximaNovaAltRegular-webfont.svg#proxima_nova_altregular') format('svg')
-  font-weight: normal
-  font-style: normal
-
-@font-face
-  font-family: 'proxima_nova_scosfthin'
-  src: url('../fonts/MarkSimonson-ProximaNovaScOsfThin-webfont.eot')
-  src: url('../fonts/MarkSimonson-ProximaNovaScOsfThin-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/MarkSimonson-ProximaNovaScOsfThin-webfont.woff') format('woff'),
-  url('../fonts/MarkSimonson-ProximaNovaScOsfThin-webfont.ttf') format('truetype'),
-  url('../fonts/MarkSimonson-ProximaNovaScOsfThin-webfont.svg#proxima_nova_scosfthin') format('svg')
-  font-weight: normal
-  font-style: normal
-
-@font-face
-  font-family: 'proxima_nova_ltsemibold'
-  src: url('../fonts/MarkSimonson-ProximaNovaSemibold-webfont.eot')
-  src: url('../fonts/MarkSimonson-ProximaNovaSemibold-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/MarkSimonson-ProximaNovaSemibold-webfont.woff2') format('woff2'),
-  url('../fonts/MarkSimonson-ProximaNovaSemibold-webfont.ttf') format('truetype'),
-  url('../fonts/MarkSimonson-ProximaNovaSemibold-webfont.svg#proxima_nova_ltsemibold') format('svg')
-  font-weight: normal
-  font-style: normal
-
-@font-face
-  font-family: 'proxima_nova_ltthin'
-  src: url('../fonts/MarkSimonson-ProximaNovaThin-webfont.eot')
-  src: url('../fonts/MarkSimonson-ProximaNovaThin-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/MarkSimonson-ProximaNovaThin-webfont.woff2') format('woff2'),
-  url('../fonts/MarkSimonson-ProximaNovaThin-webfont.woff') format('woff'),
-  url('../fonts/MarkSimonson-ProximaNovaThin-webfont.ttf') format('truetype'),
-  url('../fonts/MarkSimonson-ProximaNovaThin-webfont.svg#proxima_nova_ltthin') format('svg')
-  font-weight: normal
-  font-style: normal
-
-////Proxima Nova fonts//////////////////////////////////////////////////////////////////////////////////////////////////
+@import "colors"
+@import "fonts"
 
 ////common styles///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 body
   font-family: 'Proxima Nova', Georgia, sans-serif
-  color: #9ea4b5
+  color: $text-normal
 
 ////common styles///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //header styles/////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 .header
-  background-color: #eceef4
+  background-color: $main-background
   height: 200px
   display: flex
   flex-direction: column
@@ -93,9 +31,9 @@ body
   &__button-go-back
     width: 142px
     height: 45px
-    border: 1px solid lightgray
+    border: 1px solid $light-border
     border-radius: 5px
-    background-color: #eceef4
+    background-color: $button-regular
     font-size: 10px
     font-weight: bold
     color: gray
@@ -103,9 +41,9 @@ body
   &__button-sign-in
     width: 142px
     height: 45px
-    border: 1px solid lightgray
+    border: 1px solid $light-border
     border-radius: 5px
-    background-color: #eceef4
+    background-color: $button-regular
     font-size: 10px
     font-weight: bold
     color: gray
@@ -121,12 +59,12 @@ body
   flex-direction: column
   justify-content: center
   align-items: center
-  background-color: #eceef4
+  background-color: $main-background
   &__form-wrapper
     margin-bottom: 100px
-    background-color: #fff
+    background-color: $white
     max-width: 1000px
-    border: 1px solid lightgrey
+    border: 1px solid $light-border
     border-radius: 4px
   &__form
     counter-reset: section
@@ -139,7 +77,7 @@ body
     flex-direction: row
     justify-content: flex-start
     align-items: flex-start
-    border-bottom: 1px solid lightgrey
+    border-bottom: 1px solid $light-border
   &__order-summary-table
     width: 50%
     padding: 20px 0px 0px 30px
@@ -171,8 +109,8 @@ body
   &__place-order-button
     width: 150px
     height: 45px
-    background-color: #5fcac6
-    border: 1px solid #5fcac6
+    background-color: $button-order
+    border: 1px solid $button-order
     border-radius: 5px
     font-size: 11px
     font-weight: bold
@@ -183,9 +121,9 @@ body
   &__print-order-button
     width: 150px
     height: 45px
-    border: 1px solid lightgray
+    border: 1px solid $light-border
     border-radius: 5px
-    background-color: #eceef4
+    background-color: $button-regular
     font-size: 11px
     font-weight: bold
     color: gray
@@ -193,10 +131,10 @@ body
     text-transform: uppercase
   &__help-center
     padding-bottom: 20px
-    border-left: 1px solid lightgrey
+    border-left: 1px solid $light-border
     width: 32%
   &__help-center a
-    color: #9ea4b5
+    color: $text-bold
     font-weight: bold
     font-size: 10px
     padding: 0 0 0 55px
@@ -216,33 +154,58 @@ body
     font-size: 18px
     letter-spacing: 3px
     text-decoration: underline
+
   &__radio-buttons-wrapper
     display: flex
     flex-direction: row
     justify-content: center
     align-items: center
     & label
-      //width: 245px
-      //height: 170px
       margin: 10px
-      //background-color: #f7f7fa
-      //border: 1px solid lightgrey
-      //border-radius: 5px
       display: flex
       flex-direction: column
       justify-content: center
       align-items: center
       cursor: pointer
+      position: relative
     & label > input
       visibility: hidden
       position: absolute
-    & label > input + img
-      border: 3px solid transparent
-      width: 250px
-      height: 180px
-    & label > input:checked + img
-      border: 3px solid blue
+
+    & label > input:checked + span
+      -webkit-box-shadow: inset 0px 0px 0px 10px $checked
+      -moz-box-shadow: inset 0px 0px 0px 10px $checked
+      box-shadow: inset 0px 0px 0px 10px $checked
       border-radius: 5px
+      position: relative
+
+    & label > input:checked + span::after
+      content: ""
+      position: absolute
+      right: -10px
+      top: -10px
+      z-index: 1111
+      width: 31px
+      height: 31px
+      background: url(../img/icons/checked.svg) no-repeat center center
+      background-size: 31px
+  &__radio-img-wrapper
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    border: 1px solid $light-border
+    border-radius: 5px
+    width: 250px
+    height: 180px
+    position: relative
+    background-color: $button-regular
+  &__radio-img-wrapper img
+    width: 240px
+    height: 170px
+    position: relative
+    margin: 0
+
 
   &__upload-documents
     display: flex
@@ -263,7 +226,7 @@ body
     position: absolute
     left: -70px
     bottom: 10px
-    border: 1px solid grey
+    border: 1px solid $text-bold
     width: 35px
     height: 35px
     border-radius: 100%
@@ -281,9 +244,9 @@ body
     margin-top: 30px
     width: 195px
     height: 45px
-    border: 1px solid lightgrey
+    border: 1px solid $light-border
     border-radius: 5px
-    background-color: #f7f7fa
+    background-color: $button-regular
     cursor: pointer
     display: flex
     flex-direction: row
@@ -292,7 +255,7 @@ body
   &__uploaded-files
     height: 120px
     width: 775px
-    border: 1px solid lightgrey
+    border: 1px solid $light-border
     border-radius: 5px
     margin: 30px 170px 30px 0
     padding-bottom: 20px
@@ -314,9 +277,9 @@ body
   &__chose-languages select
     width: 170px
     height: 45px
-    background-color: #f7f7fa
-    color: #bab9c7
-    border: 1px solid lightgrey
+    background-color: $button-regular
+    color: $text-bold
+    border: 1px solid $light-border
     border-radius: 5px
     padding: 0 0 0 50px
   &__chose-languages .chose-languages-from
@@ -324,9 +287,9 @@ body
   &__chose-languages input
     width: 100px
     height: 50px
-    background-color: #f7f7fa
-    color: #bab9c7
-    border: 1px solid lightgrey
+    background-color: $button-regular
+    color: $text-bold
+    border: 1px solid $light-border
     border-radius: 5px
   &__chose-languages::before
     counter-increment: section
@@ -336,7 +299,7 @@ body
     top: 10px
     font-weight: bold
     font-size: 22px
-    border: 1px solid grey
+    border: 1px solid $text-bold
     width: 35px
     height: 35px
     border-radius: 100%
@@ -344,6 +307,7 @@ body
     flex-direction: row
     justify-content: center
     align-items: center
+
   &__select-tone
     display: flex
     flex-direction: column
@@ -352,24 +316,47 @@ body
     position: relative
     width: 30%
     float: left
-  &__select-tone input
-    display: none
-  &__select-tone label
-    width: 200px
-    height: 60px
-    background-color: #f7f7fa
-    color: #bab9c7
-    border: 1px solid lightgrey
-    border-radius: 5px
-    margin: 10px 0 15px 0
+    & input
+      visibility: hidden
+      position: absolute
+    & label
+      width: 200px
+      height: 60px
+      background-color: $button-regular
+      color: $text-bold
+      border: 1px solid $light-border
+      border-radius: 5px
+      margin: 10px 0 15px 0
+      display: flex
+      flex-direction: row
+      justify-content: center
+      align-items: center
+      cursor: pointer
+      position: relative
+
+    & label > input:checked + .main-content__select-tone-img-wrapper
+      width: 200px
+      height: 60px
+      -webkit-box-shadow: inset 0px 0px 0px 5px $checked
+      -moz-box-shadow: inset 0px 0px 0px 5px $checked
+      box-shadow: inset 0px 0px 0px 5px $checked
+      border-radius: 5px
+      position: relative
+    & label > input:checked + .main-content__select-tone-img-wrapper::after
+      content: ""
+      position: absolute
+      right: -10px
+      top: -10px
+      z-index: 1111
+      width: 31px
+      height: 31px
+      background: url(../img/icons/checked.svg) no-repeat center center
+      background-size: 31px
+  &__select-tone-img-wrapper
     display: flex
     flex-direction: row
-    justify-content: center
     align-items: center
-    cursor: pointer
-  &__select-tone label > input:checked
-    border: 3px solid blue
-    border-radius: 5px
+    justify-content: center
   &__select-tone::before
     counter-increment: section
     content: counter(section)
@@ -378,7 +365,7 @@ body
     top: 10px
     font-weight: bold
     font-size: 22px
-    border: 1px solid grey
+    border: 1px solid $text-bold
     width: 35px
     height: 35px
     border-radius: 100%
@@ -394,7 +381,7 @@ body
     margin: 80px 20px 0px 0px
     position: relative
   &__timeline-info
-    border: 1px solid lightgrey
+    border: 1px solid $light-border
     border-radius: 5px
     padding: 0 20px
     margin-top: 20px
@@ -403,8 +390,7 @@ body
     flex-direction: row
     justify-content: space-between
     align-items: center
-  //&__urgent-range-labels-wrapper:first-child
-    //color: orange
+
   &__urgent-range::before
     counter-increment: section
     content: counter(section)
@@ -413,7 +399,7 @@ body
     top: 10px
     font-weight: bold
     font-size: 22px
-    border: 1px solid grey
+    border: 1px solid $text-bold
     width: 35px
     height: 35px
     border-radius: 100%
@@ -433,7 +419,7 @@ body
     width: 20px
     height: 20px
     border-radius: 10px
-    background: orange
+    background: $orange
     margin-top: -5px
     z-index: 2
     position: relative
@@ -444,7 +430,7 @@ body
     width: 10px
     height: 10px
     border-radius: 10px
-    background: gray
+    background: $text-bold
     position: absolute
     z-index: 1
 
@@ -454,7 +440,7 @@ body
     width: 10px
     height: 10px
     border-radius: 5px
-    background: gray
+    background: $text-bold
     position: absolute
     right: 0
     z-index: 1
@@ -462,12 +448,12 @@ body
   &__urgent-range input::-webkit-slider-runnable-track
     -webkit-appearance: none
     width: 430px
-    background: lightgrey
+    background: $light-border
     height: 10px
     border-radius: 10px
 
   &__urgent-range-orange-input
-    color: orange
+    color: $orange
     font-size: 18px
     font-weight: bold
 
@@ -478,7 +464,11 @@ body
     margin-left: 140px
     position: relative
     clear: both
-
+  &__personal-payment-details
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    justify-content: flex-start
   &__choose-payment::before
     counter-increment: section
     content: counter(section)
@@ -487,7 +477,7 @@ body
     top: 10px
     font-weight: bold
     font-size: 22px
-    border: 1px solid grey
+    border: 1px solid $text-bold
     width: 35px
     height: 35px
     border-radius: 100%
@@ -514,12 +504,13 @@ body
 //footer////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 .footer
-  background-color: #444a62
+  background-color: $footer-background
   display: flex
   flex-direction: row
   justify-content: center
   align-items: center
   height: 250px
+  color: $footer-text
 
   &__wrapper
     width: 1150px
@@ -547,20 +538,19 @@ body
     & address
       padding-left: 35px
     & address a
-      color: #9ea4b5
       font-weight: bold
+      color: $footer-text
   &__socials
     width: 25%
-    color: #9ea4b5
     font-weight: bold
     & img
       width: 20px
       height: 20px
       margin-right: 15px
     & a
-      color: #9ea4b5
       font-weight: bold
       text-decoration: none
+      color: $footer-text
   &__logo
     width: 25%
     margin-top: 50px

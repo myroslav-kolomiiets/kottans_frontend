@@ -60,18 +60,24 @@
                 <div class="main-content__radio-buttons-wrapper">
                     <label for="website-radio-button">
                         <input type="radio" id="website-radio-button" name="type" class="custom-radio-button-input">
-                        <img src="img/website.png">
+                        <span class="main-content__radio-img-wrapper">
+                            <img src="img/website.png">
+                        </span>
                     </label>
 
                     <label for="document-radio-button">
                         <input type="radio" id="document-radio-button" name="type" class="custom-radio-button-input">
-                        <img src="img/documents.png">
+                        <span class="main-content__radio-img-wrapper">
+                            <img src="img/documents.png">
+                        </span>
                     </label>
 
                     <label for="social-account-radio-button">
                         <input type="radio" id="social-account-radio-button" name="type"
                                class="custom-radio-button-input">
-                        <img src="img/social-account.png">
+                        <span class="main-content__radio-img-wrapper">
+                            <img src="img/social-account.png">
+                        </span>
                     </label>
                 </div>
             </section>
@@ -141,14 +147,27 @@
 
             <section class="main-content__select-tone">
                 <h2>Select your desired tone</h2>
-                <label for="friendly-tone"><img src="img/icons/communication.svg">Friendly / Casual</label>
-                <input type="radio" id="friendly-tone" name="website-radio-button">
-
-                <label for="pro-tone"><img src="img/icons/suitcase.svg">Corporate / Pro</label>
-                <input type="radio" id="pro-tone" name="website-radio-button">
-
-                <label for="media-tone"><img src="img/icons/sound.svg">Media / Formal</label>
-                <input type="radio" id="media-tone" name="website-radio-button">
+                <label for="friendly-tone">
+                    <input type="radio" id="friendly-tone" name="website-radio-button">
+                    <span class="main-content__select-tone-img-wrapper">
+                        <img src="img/icons/communication.svg">
+                        Friendly / Casual
+                    </span>
+                </label>
+                <label for="pro-tone">
+                    <input type="radio" id="pro-tone" name="website-radio-button">
+                    <span class="main-content__select-tone-img-wrapper">
+                    <img src="img/icons/suitcase.svg">
+                        <span>Corporate / Pro</span>
+                    </span>
+                </label>
+                <label for="media-tone">
+                    <input type="radio" id="media-tone" name="website-radio-button">
+                    <span class="main-content__select-tone-img-wrapper">
+                        <img src="img/icons/sound.svg">
+                        <span>Media / Formal</span>
+                    </span>
+                </label>
             </section>
 
             <section class="main-content__urgent-range">
@@ -182,12 +201,20 @@
                     <label for="credit-card">Visa / Mastercard</label>
                 </div>
                 <div class="main-content__payments-types">
-                    <input type="radio" id="credit-card">
-                    <label for="pay-pal">PayPal</label>
-                    <input type="radio" id="pay-pal">
-                    <label for="amazon">amazon.com</label>
-                    <input type="radio" id="amazon">
-                    <label for="card-number">Card number</label>
+                    <label for="credit-card">Visa / Mastercard</label>
+                        <input type="radio" id="credit-card">
+                        <span><img src="img/"/>PayPal</span>
+                    </label>
+
+                    <label for="pay-pal">
+                        <input type="radio" id="pay-pal">
+                        <span><img src="img/"/>amazon.com</span>
+                    </label>
+
+                    <label for="amazon">
+                        <input type="radio" id="amazon">
+                        <span><img src="img/"/>Card number</span>
+                    </label>
                 </div>
                 <div class="main-content__credit-card-details">
                     <input type="text" id="card-number">

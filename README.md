@@ -89,4 +89,4 @@ Realy the hardest cours in list.
 
 ## Test task 12
 
-### [Responsive Layouts](https://github.com/iammiro/kottans_frontend/tree/master/task_12/build/index.html)
+### [Responsive Layouts](https://iammiro.github.io/task_12/build/)

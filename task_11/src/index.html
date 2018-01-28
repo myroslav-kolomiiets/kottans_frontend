@@ -10,11 +10,11 @@
 <body>
 <header class="header">
     <div class="header__wrapper">
-        <button class="header__button-go-back">&#8592;&#8192;GO BACK</button>
+        <button class="header__button-go-back" type="button">&#8592;&#8192;GO BACK</button>
         <div class="header__logo">
-            <img src="img/logo-header.png" alt="logo image">
+            <a href="/"><img src="img/logo-header.png" alt="logo image"></a>
         </div>
-        <button class="header__button-sign-in">SIGN IN</button>
+        <button class="header__button-sign-in" type="button">SIGN IN</button>
     </div>
 </header>
 <main class="main-content">
@@ -40,8 +40,8 @@
                     </table>
                 </div>
                 <div class="main-content__order-summary-buttons">
-                    <button class="main-content__place-order-button">Place order</button>
-                    <button class="main-content__print-order-button">Print a quote</button>
+                    <button class="main-content__place-order-button" type="submit">Place order</button>
+                    <button class="main-content__print-order-button" type="button">Print a quote</button>
                 </div>
                 <div class="main-content__help-center">
                     <h4><img src="img/icons/life-preserver.svg">Help center</h4>
@@ -59,22 +59,21 @@
                 <h1>Select what you want to translate</h1>
                 <div class="main-content__radio-buttons-wrapper">
                     <label for="website-radio-button">
-                        <input type="radio" id="website-radio-button" name="type" class="custom-radio-button-input">
+                        <input type="radio" id="website-radio-button" name="type" class="custom-radio-button-input" required>
                         <span class="main-content__radio-img-wrapper">
                             <img src="img/website.png">
                         </span>
                     </label>
 
                     <label for="document-radio-button">
-                        <input type="radio" id="document-radio-button" name="type" class="custom-radio-button-input">
+                        <input type="radio" id="document-radio-button" name="type" class="custom-radio-button-input" required>
                         <span class="main-content__radio-img-wrapper">
                             <img src="img/documents.png">
                         </span>
                     </label>
 
                     <label for="social-account-radio-button">
-                        <input type="radio" id="social-account-radio-button" name="type"
-                               class="custom-radio-button-input">
+                        <input type="radio" id="social-account-radio-button" name="type" class="custom-radio-button-input" required>
                         <span class="main-content__radio-img-wrapper">
                             <img src="img/social-account.png">
                         </span>
@@ -101,16 +100,26 @@
                             <th>Remove</th>
                         </tr>
                         <tr>
-                            <td><img src="img/icons/interface.svg">business_operations.docx</td>
+                            <td class="main-content__uploaded-files-table-center-row"><img src="img/icons/interface.svg">
+                                <span class="main-content__uploaded-files-table-center-text">business_operations.docx</span>
+                            </td>
                             <td>78kb</td>
                             <td>842</td>
-                            <td><button type="button" class="main-content__button-delete-icon"><img src="img/icons/delete.svg"/></button></td>
+                            <td>
+                                <button type="button" class="main-content__button-delete-icon"><img
+                                        src="img/icons/delete.svg"/></button>
+                            </td>
                         </tr>
                         <tr>
-                            <td><img src="img/icons/interface.svg">business_financial.docx</td>
+                            <td class="main-content__uploaded-files-table-center-row"><img src="img/icons/interface.svg">
+                                <span class="main-content__uploaded-files-table-center-text">business_financial.docx</span>
+                            </td>
                             <td>26kb</td>
                             <td>2,326</td>
-                            <td><button type="button" class="main-content__button-delete-icon"><img src="img/icons/delete.svg"/></button></td>
+                            <td>
+                                <button type="button" class="main-content__button-delete-icon"><img
+                                        src="img/icons/delete.svg"/></button>
+                            </td>
                         </tr>
                     </table>
                 </div>
@@ -139,7 +148,8 @@
                         <select id="lang-input-to-2">
                             <option>Kurdish</option>
                         </select>
-                        <button type="button" class="main-content__button-delete-icon"><img src="img/icons/delete.svg"></button>
+                        <button type="button" class="main-content__button-delete-icon"><img src="img/icons/delete.svg">
+                        </button>
                         <input type="button" value="+ ADD" class="main-content__chose-languages-to-add-button">
                     </div>
                 </div>
@@ -148,21 +158,21 @@
             <section class="main-content__select-tone">
                 <h2>Select your desired tone</h2>
                 <label for="friendly-tone">
-                    <input type="radio" id="friendly-tone" name="website-radio-button">
+                    <input type="radio" id="friendly-tone" name="website-radio-button" required>
                     <span class="main-content__select-tone-img-wrapper">
                         <img src="img/icons/communication.svg">
                         Friendly / Casual
                     </span>
                 </label>
                 <label for="pro-tone">
-                    <input type="radio" id="pro-tone" name="website-radio-button">
+                    <input type="radio" id="pro-tone" name="website-radio-button" required>
                     <span class="main-content__select-tone-img-wrapper">
                     <img src="img/icons/suitcase.svg">
                         <span>Corporate / Pro</span>
                     </span>
                 </label>
                 <label for="media-tone">
-                    <input type="radio" id="media-tone" name="website-radio-button">
+                    <input type="radio" id="media-tone" name="website-radio-button" required>
                     <span class="main-content__select-tone-img-wrapper">
                         <img src="img/icons/sound.svg">
                         <span>Media / Formal</span>
@@ -194,41 +204,48 @@
                 <div class="main-content__personal-payment-details">
                     <div class="main-content__personal-payment-details-name">
                         <label for="name">Full name</label>
-                        <input type="text" id="name" placeholder="Full name">
+                        <input type="text" id="name" placeholder="Full name" required>
                     </div>
                     <div class="main-content__personal-payment-details-address">
                         <div class="main-content__personal-payment-details-column">
                             <label for="email">Email address</label>
-                            <input type="email" id="email" placeholder="example@test.com">
+                            <input type="email" id="email" placeholder="example@test.com" required>
                         </div>
                         <div class="main-content__personal-payment-details-column">
                             <label for="password">Chose a password</label>
-                            <input type="text" id="password" placeholder="*********">
+                            <input type="text" id="password" placeholder="*********" required minlength="8">
                         </div>
                     </div>
                 </div>
                 <div class="main-content__payments-types">
                     <label for="credit-card">
-                        <input type="radio" id="credit-card" name="payment">
+                        <input type="radio" id="credit-card" name="payment" required>
                         <span><img src="img/visa.png"/></span>
                     </label>
 
                     <label for="pay-pal">
-                        <input type="radio" id="pay-pal" name="payment">
+                        <input type="radio" id="pay-pal" name="payment" required>
                         <span><img src="img/paypal.png"/></span>
                     </label>
 
                     <label for="amazon">
-                        <input type="radio" id="amazon" name="payment">
+                        <input type="radio" id="amazon" name="payment" required>
                         <span><img src="img/amazon.png"/></span>
                     </label>
                 </div>
                 <div class="main-content__credit-card-details">
-                    <input type="text" id="card-number">
-                    <label for="expire-date">Expire date</label>
-                    <input type="date" id="expire-date">
-                    <label for="cvv-code">Code</label>
-                    <input type="text" id="cvv-code">
+                    <div class="main-content__credit-card-number">
+                        <label for="card-number">Credit card</label>
+                        <input type="text" id="card-number" required>
+                    </div>
+                    <div class="main-content__credit-card-expire-date">
+                        <label for="expire-date">Expire date</label>
+                        <input type="date" id="expire-date" required>
+                    </div>
+                    <div class="main-content__credit-card-cvv-code">
+                        <label for="cvv-code">Code</label>
+                        <input type="text" id="cvv-code" required>
+                    </div>
                 </div>
             </section>
 
@@ -238,8 +255,8 @@
                     I agree to the
                     <a href="/">Terms & Conditions</a>
                 </label>
-                <button class="main-content__place-order-button">Place order</button>
-                <button class="main-content__print-order-button">Print a quote</button>
+                <button class="main-content__place-order-button" type="submit">Place order</button>
+                <button class="main-content__print-order-button" type="button">Print a quote</button>
             </section>
 
         </form>
@@ -265,20 +282,17 @@
         <div class="footer__socials">
             <h4><img src="img/icons/social.svg">Connect with us</h4>
             <div class="footer__facebook">
-                <img src="img/icons/facebook.svg">
-                <a href="/">Facebook</a>
+                <a href="/"><img src="img/icons/facebook.svg">Facebook</a>
             </div>
             <div class="footer__twitter">
-                <img src="img/icons/twitter.svg">
-                <a href="/">Twitter</a>
+                <a href="/"><img src="img/icons/twitter.svg">Twitter</a>
             </div>
             <div class="footer__linkedin">
-                <img src="img/icons/linkedin.svg">
-                <a href="/">Linkedin</a>
+                <a href="/"><img src="img/icons/linkedin.svg">Linkedin</a>
             </div>
         </div>
         <div class="footer__logo">
-            <img src="img/logo-footer.png">
+            <a href="/"><img src="img/logo-footer.png"></a>
         </div>
     </div>
 </footer>

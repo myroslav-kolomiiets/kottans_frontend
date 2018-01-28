@@ -10,13 +10,13 @@
 
 ## Test task 1
 
-### Linux Command Line Basics - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_1/shell.png)
+### Linux Command Line Basics - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_01/shell.png)
 > A really good course of basics that every front-end developer should know about Linux command line interface.
 
-### Configuring Linux Web Servers - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_1/conf_web_server.png)
+### Configuring Linux Web Servers - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_01/conf_web_server.png)
 > Add knowledge of how to set up remote (or on virtual machine) web server from scratch.
 
-### Networking for Web Developers - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_1/networking_for-web_developers.png)
+### Networking for Web Developers - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_01/networking_for-web_developers.png)
 > TCP, IP, HTTP and how in fact internet works.
 
 ### [HTTP: The Protocol Every Web Developer Must Know - Part 1](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
@@ -34,36 +34,36 @@ Proxy Authentication. And how HTTPS protocol actually works.**
 
 ## Test task 2
 
-### What is Version Control - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_2/Version_Control_with_Git.png)
+### What is Version Control - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_02/Version_Control_with_Git.png)
 > This course gives me an understanding of what is version control systems, git and why developers use it.
 
-### GitHub & Collaboration - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_2/GitHub_Collaboration.png)
+### GitHub & Collaboration - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_02/GitHub_Collaboration.png)
 > For previous course, it adds more information about github.com.
 
 ## Test task 3
 
-### HTML5 and CSS Fundamentals - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_3/HTML5.0x.png)
+### HTML5 and CSS Fundamentals - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_03/HTML5.0x.png)
 > A basic course about HTML and CSS, nothing really new, but it always good to refresh knowledge of basics.
 
 ## Test task 4
 
-### CSS Basics - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_4/CSS.0x.png)
+### CSS Basics - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_04/CSS.0x.png)
 > The same as previous course, refresh CSS basics.
 
 ## Test task 5
 
-### Intro to JS - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_5/Screenshot.png)
+### Intro to JS - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_05/Screenshot.png)
 > A basic course about JS, arrays, data types, strings, etc.
 
 ## Test task 6
 
-### Object Oriented JS - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_6/Screenshot.png)
+### Object Oriented JS - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_06/Screenshot.png)
 A more advanced course about OOP in JS, but I think it is not enough to understand this theme, it needs much more practice. 
 Realy the hardest cours in list.
 
 ## Test task 7
 
-### Offline Web Applications - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_7/Screenshot.png)
+### Offline Web Applications - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_07/Screenshot.png)
 > I did one PWA before, but this course helped me understand this technology more deeply.
 
 ## Test task 8
@@ -73,7 +73,7 @@ Realy the hardest cours in list.
 
 ## Test task 9
 
-### Website Performance Optimization - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_9/Screenshot.png)
+### Website Performance Optimization - [screenshot](https://raw.githubusercontent.com/iammiro/kottans_frontend/master/task_09/Screenshot.png)
 > A very interesting course about the performance optimization. It shows how necessary is to optimize the content of web page, a js and CSS files.
 > And that we have to worry about the users with a bad internet connection.
 
@@ -81,3 +81,12 @@ Realy the hardest cours in list.
 
 ### [Weather app](https://iammiro.github.io/Weather-app)
 > Weather forecast app, based on [Dark Sky API](https://darksky.net/dev) and [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/geocoding?hl=en)
+
+## Test task 11
+
+### [HTML5: Forms](https://iammiro.github.io/task-11/)
+>
+
+## Test task 12
+
+### [Responsive Layouts](https://github.com/iammiro/kottans_frontend/tree/master/task_12/build/index.html)

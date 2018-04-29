@@ -7,28 +7,23 @@ const autoprefixer = require('autoprefixer');
 const sass = require('gulp-sass');
 const concat = require('gulp-concat');
 const cleanCSS = require('gulp-clean-css');
-const concatCss = require('gulp-concat-css');
 const babel = require('gulp-babel');
 const ghPages = require('gulp-gh-pages');
-const svgmin = require('gulp-svgmin');
-
-
 
 gulp.task('deploy', () => {
   return gulp.src('./build/**/*')
     .pipe(ghPages());
 });
 
-gulp.task('serve', ['sass', 'pug', 'min-js', 'svgo', 'compress-images', 'fonts', 'html'], () => {
+gulp.task('serve', ['sass', 'pug', 'min-js', 'compress-images', 'fonts', 'html'], () => {
   browserSync.init({
     server: {
       baseDir: "./build/"
     }
   });
 
-  gulp.watch('src/**/*.scss', ['sass']);
-  gulp.watch('src/**/*.svg', ['svgo']);
   gulp.watch('src/img/*.*', ['compress-images']);
+  gulp.watch('src/**/*.scss', ['sass']);
   gulp.watch('src/**/*.html', ['html']);
   gulp.watch('src/fonts/*.*', ['fonts']);
   gulp.watch('src/**/*.js', ['min-js']);
@@ -40,12 +35,6 @@ gulp.task('compress-images', () => {
   gulp.src('src/img/**/*.*')
     .pipe(imagemin())
     .pipe(gulp.dest('build/img'))
-});
-
-gulp.task('svgo', () => {
-    return gulp.src('src/img/**/*.svg')
-        .pipe(svgmin())
-        .pipe(gulp.dest('build/img'));
 });
 
 gulp.task('min-js', () => {

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
 @import "mixins";
+
 body {
   background-color: #000000;
   color: #ffffff;
@@ -123,7 +124,7 @@ body {
   border-top: 1px solid black;
   background-color: #375812;
   color: #ffffff;
-  .footer__wrapper {
+  .footer-wrapper {
     @include flex(flex, row, space-around, center);
   }
 }

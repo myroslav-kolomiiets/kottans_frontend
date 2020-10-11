@@ -79,14 +79,14 @@ Realy the hardest cours in list.
 
 ## Test task 10
 
-### [Weather app](https://iammiro.github.io/Weather-app)
+### [Weather app](https://miroslav-kolomiets.github.io/Weather-app)
 > Weather forecast app, based on [Dark Sky API](https://darksky.net/dev) and [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/geocoding?hl=en)
 
 ## Test task 11
 
-### [HTML5: Forms](https://iammiro.github.io/task-11/)
+### [HTML5: Forms](https://miroslav-kolomiets.github.io/task-11/)
 >
 
 ## Test task 12
 
-### [Responsive Layouts](https://iammiro.github.io/kottans_frontend/task_12/build/)
+### [Responsive Layouts](https://miroslav-kolomiets.github.io/kottans_frontend/task_12/build/)

@@ -14,7 +14,7 @@
     "bemto.pug": "^2.1.0",
     "browser-sync": "^2.18.8",
     "gulp": "^3.9.1",
-    "gulp-babel": "^6.1.2",
+    "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^3.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-data": "^1.2.1",
